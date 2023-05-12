@@ -9,7 +9,10 @@ export interface ConversionBacklinkAPI {
   conversion_detail: {
     backlink_url: string;
     target_domain: string;
+    first_page_duration: number;
+    default_page_duration: number;
     action_number: number;
+    geo: Array<string>;
     target_page_duration: number;
     ip_address: string;
     country_code: string;

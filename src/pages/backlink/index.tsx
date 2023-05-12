@@ -56,7 +56,7 @@ const Index = ({conversion}: BacklinkProps) => {
                 </div>
                 <div className='flex border-b border-late-50 flex-col md:flex-row'>
                   <div className='p-2 md:p-5 text-xl font-bold whitespace-nowrap'>Bước 4:	</div>
-                  <div className='p-2 md:p-5 text-base md:text-xl'>Ở lại trên trang <span className='font-bold'>{conversion?.conversion_detail.target_page_duration}</span> giây</div>
+                  <div className='p-2 md:p-5 text-base md:text-xl'>Ở lại trên trang <span className='font-bold'>{conversion?.conversion_detail.first_page_duration}</span> giây</div>
                 </div>
                 <div className='flex flex-col md:flex-row'>
                   <div className='p-2 md:p-5 text-xl font-bold whitespace-nowrap'>Bước 5:	</div>

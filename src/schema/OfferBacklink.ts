@@ -22,7 +22,13 @@ const OfferBacklinkSchema = new mongoose.Schema({
   "end_time": {
     "type": "Date"
   },
-  "target_page_duration": {
+  "first_page_duration": {
+    "type": "Number"
+  },
+  "default_page_duration": {
+    "type": "Number"
+  },
+  "action_number": {
     "type": "Number"
   },
   "daily_traffic": {
